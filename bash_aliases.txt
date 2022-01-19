@@ -1,0 +1,17 @@
+
+# My personal aliases
+ 
+alias python='python3'
+
+# Gsettings
+alias dark_mode="gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'" # Dark mode
+alias light_mode="gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'"
+
+# Drive aliases
+alias usp_drive='cd ~/google_drive/lucas.cardoso.santos@usp.br'
+alias personal_drive='cd ~/google_drive/lucascardoso910@gmail.com'
+alias personal_push='drive push -fix-clashes -no-prompt ~/google_drive/lucascardoso910@gmail.com Backups Acadêmico'
+alias usp_push='drive push -fix-clashes -no-prompt ~/google_drive/lucas.cardoso.santos@usp.br'
+
+# Complicated commands
+alias wifi='sudo modprobe -rfv rt2800pci'
