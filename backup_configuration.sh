@@ -52,6 +52,17 @@ sudo apt install -y git > ~/script_log.txt && echo "Git installed!"
 sudo apt install -y qbittorrent > ~/script_log.txt && echo "qBitTorrent installed!"
 sudo apt install -y idle > ~/script_log.txt && echo "idle installed!"
 
+# Installing python libraries
+pip install numpy >> > ~/script_log.txt && echo "numpy installed!"
+pip install scipy >> > ~/script_log.txt && echo "scipy installed!"
+pip install sympy >> > ~/script_log.txt && echo "sympy installed!"
+pip install numba >> > ~/script_log.txt && echo "numba installed!"
+pip install keras >> > ~/script_log.txt && echo "keras installed!"
+pip install pillow >> > ~/script_log.txt && echo "pillow installed!"
+pip install anytree >> > ~/script_log.txt && echo "anytree installed!"
+pip install tensorflow >> > ~/script_log.txt && echo "tensorflow installed!"
+pip install matplotlib >> > ~/script_log.txt && echo "matplotlib installed!"
+
 # Removing
 sudo apt-get remove --purge -y libreoffice* > ~/script_log.txt && echo "LibreOffice removed!"
 sudo apt-get clean > ~/script_log.txt 
